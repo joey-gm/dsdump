@@ -79,6 +79,7 @@ typedef struct {
     int debug;
     int help;
     int opcodes;
+    int demangle_mode;
 } xref_options_t;
 
 extern xref_options_t xref_options;

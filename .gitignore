@@ -5,8 +5,11 @@
 *.xcuserstate
 *.xcbkptlist
 Breakpoints_v2.xcbkptlist
+.DS_Store
 /.DS_Store
 /dsdump/.DS_Store
-.DS_Store
 xcuserdata
-swift-source
+headers
+references
+Debug
+test_binary

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1130"
+   LastUpgradeVersion = "1140"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -57,24 +57,24 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
+            argument = "--verbose=5"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
             argument = "-c"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "-s"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "--verbose=5"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "--objc"
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "-o "
             isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-d"
+            isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "-a arm64"
