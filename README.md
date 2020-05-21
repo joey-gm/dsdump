@@ -29,7 +29,7 @@ OPTIONS
      -c, --color
              Adds color to output
     
-    -d, --demangle
+     -d, --demangle
              Demangle Swift and C++ symbols in print symbol mode
 
      -l, --library
