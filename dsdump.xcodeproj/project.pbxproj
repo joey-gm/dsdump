@@ -55,12 +55,13 @@
 		3F7C9AB12295BBD50070F2B1 /* XRSymbolEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C9AB02295BBD50070F2B1 /* XRSymbolEntry.m */; };
 		3F7CE5F12461236900E2B32D /* objc-typeencoding.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3F7CE5DF2461236900E2B32D /* objc-typeencoding.mm */; };
 		3F98C3B3225F06E900606F97 /* XRMachOLibrary+FileManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F98C3B2225F06E900606F97 /* XRMachOLibrary+FileManagement.m */; };
-		3FD99905233E90FE0072F4A0 /* libcapstone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD998E3233E90B90072F4A0 /* libcapstone.a */; };
 		3FD99918233E9D3F0072F4A0 /* XRMachOLibrary+Disassemble.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3FD99917233E9D3F0072F4A0 /* XRMachOLibrary+Disassemble.mm */; };
 		3FE4FD48231B3BC600D4B77C /* manpage.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FE4FD46231B002400D4B77C /* manpage.c */; };
 		3FEAB9D8226D0C0E00ED706A /* XRMachOLibrary+Opcode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAB9D7226D0C0E00ED706A /* XRMachOLibrary+Opcode.mm */; };
 		3FEBCB60227C98D200D3AD07 /* DSXRLibrary+PID_Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEBCB5F227C98D200D3AD07 /* DSXRLibrary+PID_Info.m */; };
 		3FF9AE0822777A9500F71FA5 /* XRMachOLibrary+ObjectiveC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9AE0722777A9500F71FA5 /* XRMachOLibrary+ObjectiveC.mm */; };
+		7C3E4AFC24762374007E544B /* libcapstone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3E4AFB2476236E007E544B /* libcapstone.a */; };
+		7C3E4AFE247623B5007E544B /* libswiftDemangling.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3E4AFD247623B5007E544B /* libswiftDemangling.a */; };
 		A66A9CBF22316CF3006602AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A66A9CBE22316CF3006602AB /* main.m */; };
 		A66A9CC922316D7F006602AB /* miscellaneous.mm in Sources */ = {isa = PBXBuildFile; fileRef = A66A9CC822316D7F006602AB /* miscellaneous.mm */; };
 		A66A9CCC22316EA5006602AB /* XRMachOLibrary.mm in Sources */ = {isa = PBXBuildFile; fileRef = A66A9CCB22316EA5006602AB /* XRMachOLibrary.mm */; };
@@ -73,125 +74,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = A66A9CBA22316CF3006602AB;
 			remoteInfo = dsdump;
-		};
-		3FD998E2233E90B90072F4A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCFE23BD19DDCC2D00EF8EA9;
-			remoteInfo = CapstoneStatic;
-		};
-		3FD998E4233E90B90072F4A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCFE23CD19DDCC9500EF8EA9;
-			remoteInfo = CapstoneDynamic;
-		};
-		3FD998E6233E90B90072F4A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DC474F6819DE6F3B00BCA449;
-			remoteInfo = CapstoneFramework;
-		};
-		3FD998E8233E90B90072F4A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DC474E6419DDEA5F00BCA449;
-			remoteInfo = test_basic;
-		};
-		3FD998EA233E90B90072F4A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DC474E8619DDEAA200BCA449;
-			remoteInfo = test_arm;
-		};
-		3FD998EC233E90B90072F4A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DC474EEA19DDEAE400BCA449;
-			remoteInfo = test_arm64;
-		};
-		3FD998EE233E90B90072F4A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DC3A28DB1AF29BEB00FC9913;
-			remoteInfo = test_customized_mnem;
-		};
-		3FD998F0233E90B90072F4A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DC474E9119DDEAA700BCA449;
-			remoteInfo = test_detail;
-		};
-		3FD998F2233E90B90072F4A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DC5BFF4019EE544E008CA585;
-			remoteInfo = test_iter;
-		};
-		3FD998F4233E90B90072F4A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCA357961BC2C0930094BB3F;
-			remoteInfo = test_m68k;
-		};
-		3FD998F6233E90B90072F4A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DC474E9C19DDEAAC00BCA449;
-			remoteInfo = test_mips;
-		};
-		3FD998F8233E90B90072F4A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DC474EA719DDEAB000BCA449;
-			remoteInfo = test_ppc;
-		};
-		3FD998FA233E90B90072F4A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DC474EB219DDEAB700BCA449;
-			remoteInfo = test_skipdata;
-		};
-		3FD998FC233E90B90072F4A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DC474EBD19DDEABC00BCA449;
-			remoteInfo = test_sparc;
-		};
-		3FD998FE233E90B90072F4A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DC474EC819DDEAC100BCA449;
-			remoteInfo = test_systemz;
-		};
-		3FD99900233E90B90072F4A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DC474ED319DDEAC600BCA449;
-			remoteInfo = test_x86;
-		};
-		3FD99902233E90B90072F4A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DC474EDE19DDEACC00BCA449;
-			remoteInfo = test_xcore;
 		};
 		3FE4FD43231AFF6C00D4B77C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -270,22 +152,6 @@
 		3F7C9AB02295BBD50070F2B1 /* XRSymbolEntry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRSymbolEntry.m; sourceTree = "<group>"; };
 		3F7CE5DF2461236900E2B32D /* objc-typeencoding.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "objc-typeencoding.mm"; sourceTree = "<group>"; };
 		3F98C3B2225F06E900606F97 /* XRMachOLibrary+FileManagement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XRMachOLibrary+FileManagement.m"; sourceTree = "<group>"; };
-		3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Capstone.xcodeproj; path = capstone/xcode/Capstone.xcodeproj; sourceTree = "<group>"; };
-		3FD99907233E9C140072F4A0 /* capstone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = capstone.h; sourceTree = "<group>"; };
-		3FD99908233E9C140072F4A0 /* mips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mips.h; sourceTree = "<group>"; };
-		3FD99909233E9C140072F4A0 /* sparc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sparc.h; sourceTree = "<group>"; };
-		3FD9990A233E9C140072F4A0 /* systemz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = systemz.h; sourceTree = "<group>"; };
-		3FD9990B233E9C140072F4A0 /* m68k.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m68k.h; sourceTree = "<group>"; };
-		3FD9990C233E9C140072F4A0 /* arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arm.h; sourceTree = "<group>"; };
-		3FD9990D233E9C140072F4A0 /* mos65xx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mos65xx.h; sourceTree = "<group>"; };
-		3FD9990E233E9C140072F4A0 /* evm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evm.h; sourceTree = "<group>"; };
-		3FD9990F233E9C140072F4A0 /* x86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x86.h; sourceTree = "<group>"; };
-		3FD99910233E9C140072F4A0 /* ppc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ppc.h; sourceTree = "<group>"; };
-		3FD99911233E9C140072F4A0 /* arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arm64.h; sourceTree = "<group>"; };
-		3FD99912233E9C140072F4A0 /* xcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xcore.h; sourceTree = "<group>"; };
-		3FD99913233E9C140072F4A0 /* m680x.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m680x.h; sourceTree = "<group>"; };
-		3FD99914233E9C140072F4A0 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
-		3FD99915233E9C140072F4A0 /* tms320c64x.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tms320c64x.h; sourceTree = "<group>"; };
 		3FD99916233E9D3F0072F4A0 /* XRMachOLibrary+Disassemble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XRMachOLibrary+Disassemble.h"; sourceTree = "<group>"; };
 		3FD99917233E9D3F0072F4A0 /* XRMachOLibrary+Disassemble.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "XRMachOLibrary+Disassemble.mm"; sourceTree = "<group>"; };
 		3FE4FD46231B002400D4B77C /* manpage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = manpage.c; sourceTree = "<group>"; };
@@ -295,6 +161,23 @@
 		3FEBCB5F227C98D200D3AD07 /* DSXRLibrary+PID_Info.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DSXRLibrary+PID_Info.m"; sourceTree = "<group>"; };
 		3FF9AE0622777A9500F71FA5 /* XRMachOLibrary+ObjectiveC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XRMachOLibrary+ObjectiveC.h"; sourceTree = "<group>"; };
 		3FF9AE0722777A9500F71FA5 /* XRMachOLibrary+ObjectiveC.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "XRMachOLibrary+ObjectiveC.mm"; sourceTree = "<group>"; };
+		7C3E4AEC24762346007E544B /* tms320c64x.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tms320c64x.h; path = capstone/tms320c64x.h; sourceTree = SOURCE_ROOT; };
+		7C3E4AED24762346007E544B /* systemz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = systemz.h; path = capstone/systemz.h; sourceTree = SOURCE_ROOT; };
+		7C3E4AEE24762346007E544B /* mos65xx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mos65xx.h; path = capstone/mos65xx.h; sourceTree = SOURCE_ROOT; };
+		7C3E4AEF24762346007E544B /* x86.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = x86.h; path = capstone/x86.h; sourceTree = SOURCE_ROOT; };
+		7C3E4AF024762346007E544B /* mips.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mips.h; path = capstone/mips.h; sourceTree = SOURCE_ROOT; };
+		7C3E4AF124762346007E544B /* evm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = evm.h; path = capstone/evm.h; sourceTree = SOURCE_ROOT; };
+		7C3E4AF224762346007E544B /* sparc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sparc.h; path = capstone/sparc.h; sourceTree = SOURCE_ROOT; };
+		7C3E4AF324762346007E544B /* ppc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ppc.h; path = capstone/ppc.h; sourceTree = SOURCE_ROOT; };
+		7C3E4AF424762346007E544B /* m680x.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = m680x.h; path = capstone/m680x.h; sourceTree = SOURCE_ROOT; };
+		7C3E4AF524762346007E544B /* arm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = arm.h; path = capstone/arm.h; sourceTree = SOURCE_ROOT; };
+		7C3E4AF624762346007E544B /* arm64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = arm64.h; path = capstone/arm64.h; sourceTree = SOURCE_ROOT; };
+		7C3E4AF724762346007E544B /* capstone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = capstone.h; path = capstone/capstone.h; sourceTree = SOURCE_ROOT; };
+		7C3E4AF824762346007E544B /* xcore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = xcore.h; path = capstone/xcore.h; sourceTree = SOURCE_ROOT; };
+		7C3E4AF924762346007E544B /* platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = platform.h; path = capstone/platform.h; sourceTree = SOURCE_ROOT; };
+		7C3E4AFA24762346007E544B /* m68k.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = m68k.h; path = capstone/m68k.h; sourceTree = SOURCE_ROOT; };
+		7C3E4AFB2476236E007E544B /* libcapstone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcapstone.a; path = capstone/libcapstone.a; sourceTree = "<group>"; };
+		7C3E4AFD247623B5007E544B /* libswiftDemangling.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswiftDemangling.a; path = dsdump/libswiftDemangling.a; sourceTree = "<group>"; };
 		A66A9CBB22316CF3006602AB /* dsdump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dsdump; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66A9CBE22316CF3006602AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A66A9CC722316D7F006602AB /* miscellaneous.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = miscellaneous.h; sourceTree = "<group>"; };
@@ -308,7 +191,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FD99905233E90FE0072F4A0 /* libcapstone.a in Frameworks */,
+				7C3E4AFC24762374007E544B /* libcapstone.a in Frameworks */,
+				7C3E4AFE247623B5007E544B /* libswiftDemangling.a in Frameworks */,
 				3F23C2FE2343DE4500483D1E /* libswiftDemangling.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,33 +231,11 @@
 			path = FAT;
 			sourceTree = "<group>";
 		};
-		3FD998CF233E90B90072F4A0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3FD998E3233E90B90072F4A0 /* libcapstone.a */,
-				3FD998E5233E90B90072F4A0 /* libcapstone.dylib */,
-				3FD998E7233E90B90072F4A0 /* Capstone.framework */,
-				3FD998E9233E90B90072F4A0 /* test */,
-				3FD998EB233E90B90072F4A0 /* test_arm */,
-				3FD998ED233E90B90072F4A0 /* test_arm64 */,
-				3FD998EF233E90B90072F4A0 /* test_customized_mnem */,
-				3FD998F1233E90B90072F4A0 /* test_detail */,
-				3FD998F3233E90B90072F4A0 /* test_iter */,
-				3FD998F5233E90B90072F4A0 /* test_m68k */,
-				3FD998F7233E90B90072F4A0 /* test_mips */,
-				3FD998F9233E90B90072F4A0 /* test_ppc */,
-				3FD998FB233E90B90072F4A0 /* test_skipdata */,
-				3FD998FD233E90B90072F4A0 /* test_sparc */,
-				3FD998FF233E90B90072F4A0 /* test_systemz */,
-				3FD99901233E90B90072F4A0 /* test_x86 */,
-				3FD99903233E90B90072F4A0 /* test_xcore */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		3FD99904233E90FE0072F4A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7C3E4AFB2476236E007E544B /* libcapstone.a */,
+				7C3E4AFD247623B5007E544B /* libswiftDemangling.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -381,21 +243,21 @@
 		3FD99906233E9C140072F4A0 /* capstone */ = {
 			isa = PBXGroup;
 			children = (
-				3FD99907233E9C140072F4A0 /* capstone.h */,
-				3FD99908233E9C140072F4A0 /* mips.h */,
-				3FD99909233E9C140072F4A0 /* sparc.h */,
-				3FD9990A233E9C140072F4A0 /* systemz.h */,
-				3FD9990B233E9C140072F4A0 /* m68k.h */,
-				3FD9990C233E9C140072F4A0 /* arm.h */,
-				3FD9990D233E9C140072F4A0 /* mos65xx.h */,
-				3FD9990E233E9C140072F4A0 /* evm.h */,
-				3FD9990F233E9C140072F4A0 /* x86.h */,
-				3FD99910233E9C140072F4A0 /* ppc.h */,
-				3FD99911233E9C140072F4A0 /* arm64.h */,
-				3FD99912233E9C140072F4A0 /* xcore.h */,
-				3FD99913233E9C140072F4A0 /* m680x.h */,
-				3FD99914233E9C140072F4A0 /* platform.h */,
-				3FD99915233E9C140072F4A0 /* tms320c64x.h */,
+				7C3E4AF524762346007E544B /* arm.h */,
+				7C3E4AF624762346007E544B /* arm64.h */,
+				7C3E4AF724762346007E544B /* capstone.h */,
+				7C3E4AF124762346007E544B /* evm.h */,
+				7C3E4AFA24762346007E544B /* m68k.h */,
+				7C3E4AF424762346007E544B /* m680x.h */,
+				7C3E4AF024762346007E544B /* mips.h */,
+				7C3E4AEE24762346007E544B /* mos65xx.h */,
+				7C3E4AF924762346007E544B /* platform.h */,
+				7C3E4AF324762346007E544B /* ppc.h */,
+				7C3E4AF224762346007E544B /* sparc.h */,
+				7C3E4AED24762346007E544B /* systemz.h */,
+				7C3E4AEC24762346007E544B /* tms320c64x.h */,
+				7C3E4AEF24762346007E544B /* x86.h */,
+				7C3E4AF824762346007E544B /* xcore.h */,
 			);
 			name = capstone;
 			path = capstone/include/capstone;
@@ -406,7 +268,6 @@
 			children = (
 				3FD99906233E9C140072F4A0 /* capstone */,
 				A66A9CBD22316CF3006602AB /* dsdump */,
-				3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */,
 				A66A9CBC22316CF3006602AB /* Products */,
 				3FD99904233E90FE0072F4A0 /* Frameworks */,
 			);
@@ -517,12 +378,6 @@
 			mainGroup = A66A9CB222316CF3006602AB;
 			productRefGroup = A66A9CBC22316CF3006602AB /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 3FD998CF233E90B90072F4A0 /* Products */;
-					ProjectRef = 3FD998CE233E90B90072F4A0 /* Capstone.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A66A9CBA22316CF3006602AB /* dsdump */,
@@ -531,129 +386,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		3FD998E3233E90B90072F4A0 /* libcapstone.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libcapstone.a;
-			remoteRef = 3FD998E2233E90B90072F4A0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3FD998E5233E90B90072F4A0 /* libcapstone.dylib */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.dylib";
-			path = libcapstone.dylib;
-			remoteRef = 3FD998E4233E90B90072F4A0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3FD998E7233E90B90072F4A0 /* Capstone.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Capstone.framework;
-			remoteRef = 3FD998E6233E90B90072F4A0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3FD998E9233E90B90072F4A0 /* test */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			name = test;
-			path = test_basic;
-			remoteRef = 3FD998E8233E90B90072F4A0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3FD998EB233E90B90072F4A0 /* test_arm */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = test_arm;
-			remoteRef = 3FD998EA233E90B90072F4A0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3FD998ED233E90B90072F4A0 /* test_arm64 */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = test_arm64;
-			remoteRef = 3FD998EC233E90B90072F4A0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3FD998EF233E90B90072F4A0 /* test_customized_mnem */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = test_customized_mnem;
-			remoteRef = 3FD998EE233E90B90072F4A0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3FD998F1233E90B90072F4A0 /* test_detail */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = test_detail;
-			remoteRef = 3FD998F0233E90B90072F4A0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3FD998F3233E90B90072F4A0 /* test_iter */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = test_iter;
-			remoteRef = 3FD998F2233E90B90072F4A0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3FD998F5233E90B90072F4A0 /* test_m68k */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = test_m68k;
-			remoteRef = 3FD998F4233E90B90072F4A0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3FD998F7233E90B90072F4A0 /* test_mips */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = test_mips;
-			remoteRef = 3FD998F6233E90B90072F4A0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3FD998F9233E90B90072F4A0 /* test_ppc */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = test_ppc;
-			remoteRef = 3FD998F8233E90B90072F4A0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3FD998FB233E90B90072F4A0 /* test_skipdata */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = test_skipdata;
-			remoteRef = 3FD998FA233E90B90072F4A0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3FD998FD233E90B90072F4A0 /* test_sparc */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = test_sparc;
-			remoteRef = 3FD998FC233E90B90072F4A0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3FD998FF233E90B90072F4A0 /* test_systemz */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = test_systemz;
-			remoteRef = 3FD998FE233E90B90072F4A0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3FD99901233E90B90072F4A0 /* test_x86 */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = test_x86;
-			remoteRef = 3FD99900233E90B90072F4A0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3FD99903233E90B90072F4A0 /* test_xcore */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = test_xcore;
-			remoteRef = 3FD99902233E90B90072F4A0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		3F0C91FB245EE4B50038E3AD /* Generate zipped Contents */ = {
@@ -918,9 +650,9 @@
 				);
 				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/swift-source/swift/include\"",
-					"\"$(SRCROOT)/swift-source/llvm/include/\"",
-					"\"$(SRCROOT)/fix_swift\"",
+					"$(SRCROOT)/swift-source/swift/include",
+					"$(SRCROOT)/swift-source/llvm/include",
+					"$(SRCROOT)/fix_swift",
 				);
 				LD_NO_PIE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -931,6 +663,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/dsdump",
+					"$(PROJECT_DIR)/capstone",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-lncurses";
@@ -951,9 +684,9 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "DD_VERSION=${DSDUMP_VERSION}";
 				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/swift-source/swift/include\"",
-					"\"$(SRCROOT)/swift-source/llvm/include/\"",
-					"\"$(SRCROOT)/fix_swift\"",
+					"$(SRCROOT)/swift-source/swift/include",
+					"$(SRCROOT)/swift-source/llvm/include",
+					"$(SRCROOT)/fix_swift",
 				);
 				LD_NO_PIE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -964,6 +697,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/dsdump",
+					"$(PROJECT_DIR)/capstone",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-lncurses";

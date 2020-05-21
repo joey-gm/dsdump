@@ -53,47 +53,51 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "${BUILD_DIR}/Debug/dsdump -vvvvv --swift"
-            isEnabled = "NO">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "--offset 0x1333  ${BUILD_DIR}/Debug/dsdump "
-            isEnabled = "NO">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "${BUILD_DIR}/Debug/dsdump -l"
-            isEnabled = "NO">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "-l /System/Library/PrivateFrameworks/MobileDevice.framework/MobileDevice"
-            isEnabled = "NO">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "${BUILD_DIR}/Debug/dsdump -o "
-            isEnabled = "NO">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "/Users/lolgrep/Desktop/ddi/usr/bin/axauditd -oa arm64 -f XADDisplayManager -v"
+            argument = "$(PROJECT_DIR)/test_binary"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "${BUILD_DIR}/Debug/dsdump -F 0x1"
+            argument = "-c"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-s"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "--verbose=5"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "--objc"
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "/Applications/Xcode.app/Contents/Developer/usr/bin/xml2man --objc -v  -a x86_64"
+            argument = "-o "
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "/Applications/Xcode.app/Contents/SharedFrameworks/ContentDeliveryServices.framework/Versions/A/Frameworks/MZXMLMarshalling.framework/Versions/A/MZXMLMarshalling -v -a x86_64"
+            argument = "-a arm64"
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = ""
+            argument = "-f XADDisplayManager"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-F 0x1"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "--offset 0x1333"
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "-l /System/Library/Frameworks/Foundation.framework/Foundation"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "${BUILD_DIR}/Debug/dsdump"
             isEnabled = "NO">
          </CommandLineArgument>
       </CommandLineArguments>
